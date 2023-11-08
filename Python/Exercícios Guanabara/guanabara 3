@@ -1,0 +1,9 @@
+#desafio 1
+#crie um programa que leia dois números e mostre a soma entre eles
+n1=int(input('digite um número:'))
+n2=int(input('digite outro número:'))
+s=n1+n2
+print('a soma de {} e {} é igual a {}'.format(n1,n2,s)) 
+
+#desafio 2
+#faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possívies sobre ele.

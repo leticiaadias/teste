@@ -1,0 +1,10 @@
+#crie um programa pedindo de entrada o nome da pessoa e três número.
+#a saída deve ser "Olá, -nome-! A soma dos seus números é -soma- e essa é a sequência ordenada."
+#apresente os números digitados ordenados de forma crescente.
+
+nome=input('qual o seu nome?')
+n1=int(input('me dê um número.'))
+n2=int(input('me dê outro número.'))
+n3=int(input('me dê mais outro número.'))
+s=n1+n2+n3
+print('olá, {}! A soma dos seus números é {}'.format(nome,s))

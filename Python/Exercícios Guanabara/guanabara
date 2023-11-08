@@ -1,0 +1,26 @@
+#nome = guanabara
+#idade = 25
+#peso = 75.8
+print ("nome: guanabara,", "idade:", int(25), "e" , "peso:", float(75.8))
+
+#prática 1:
+nome = input ("qual é o seu nome?")
+idade = input ("quantos anos você tem?")
+peso = input ("quanto você pesa?")
+print (nome, idade, peso)
+
+#desafio 1:
+nome = input("qual o seu nome?")
+print ("olá," + nome , "prazer em te conhecer!")
+
+#desafio 2:
+dia = input("qual foi dia você nasceu?")
+mês = input("em qual mês você nasceu?")
+ano = input("em qual ano que você nasceu?")
+print ("você nasceu no dia" , dia , "de", mês , "de" , ano,". correto?")
+
+#desafio 3:
+a = input ("digite um número")
+b = input ("digite outro número")
+c = print (int(a) + int(b))
+print (type(n1))

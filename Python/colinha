@@ -1,0 +1,84 @@
+#conceito:
+#concatenar = juntar
+
+#declaração de tipo:
+#int = números inteiros
+#float = números com vírgula/quebrado
+#char = caractere
+#string (str) = palavra (conjunto de caracteres)
+#boolean (bool) = verdadeiro ou falso
+#def = declaração de função
+
+#comandos:
+#print = imprimir na tela
+#input = receber algo do teclado
+#if/else = condicionais
+#append = adicionar um valor no final da lista
+#insert = adicionar um valor no local específico de uma lista
+#len = retorna o tamanho de uma lista
+#import = importar um módulo inteiro
+#from import = importar algo específico do módulos
+
+#operador de atribuição:
+# = -> recebe algo
+
+#operador lógico:
+# == -> verificar se o valores são iguais
+# and -> e
+# or -> ou 
+
+#ordem de precedência matemática:
+# 1° - () (parênteses) OBS.: não utiliza chaves e colchetes em matemática no python.
+# 2° - ** (potências)
+# 3° - *, /, // e % (multiplicação, divisão, divisão inteira e resto da divisão) OBS.: faz primeiro quem aparcer primeiro
+# 4° - + e - (mais e menos)
+
+#biblioteca matemática / módulo matemático:
+#ceil = arredondamento para cima
+#floor = arredondamento para baixo
+#trun = "truncar" significa que vai cortar o número após a vírgula, deixando um número inteiro e sem arredondamento
+#pow = "power" algo parecido com potência 
+#sqrt = raiz quadrada
+#factorial = cálculo de fatoriais
+#hypot = hipotenusa
+
+#biblioteca random / módulo random:
+#choice = escolher algo específico da lista
+#shuffle = misturar as ordens da lista
+
+#MANIPULAÇÃO DE TEXTO:
+#fatiamento:
+    # : - para separar o intervalo posto entre os dois pontos ex.: 4:8) pega da letra 4 até a letra 7, pois anula a última letra
+    # : : - faz o mesmo fatiamento acima, porém, pulando a quantidade de letras colocada no segundo : (ex.: 3:11:2 - vai do 3 ao 11 pulando de 2 em 2)
+    # :: - se não colocar um número do meio, vai até o final e tem a mesma lógica acima
+    #len = o len conta quantas strings tem a frase
+    #count('x') = vai contar quantas vezes aparece a string analisada
+    #count('x,0,13') = a vírgula nesse exemplo serve com os :, uma vez q delimita as strings do intervalo estabelecido
+    #find('x') = para achar algo específico na frase (obs.: caso não exista, o retorno será "-1")
+    #'x' in frase = verá se existe aquela string na frase, retornando true or false
+    #replace.('','') = vai substituir uma palavra para outra
+    #upper e lower = deixar em maiúsculo ou minúsculo
+    #capitalize = vai deixar todas as letras minúsculas e a primeira maiúscula
+    #title = vai contar quantas palavras tem e deixar a primeira letra maiúscula
+    #strip = remove os espaços inúteis do início e do final da frase
+    #rstrip = remeve os espaços inúteis da direita
+    #lstrip = remeve os espaços inúteis da esquerda
+    #split = divide a string em uma lista, onde cada elemento vai ser sepado pelos spaces
+    #'-'join = concatena uma frase completa
+    #"""x""" = em um texto grande para não escrever vários "prints", basta colocar entre 3 aspas
+    
+
+#LISTAS - []
+    #.append('') - acrescentar um valor no final da lista
+    #.insert(0,'') - acrescentar um valor num local da lista indicado pelo ()
+    #del lanche [3] - deletar um valor de um índice específico
+    #lanche.pop(3) - deletar um valor de um índice específico
+    #lanche.remove('') - deletar um valor específico
+    #if '' in lanche: 
+        #lanche.remove('')
+    #valores=list(range(4,11)) - cria uma lista com valores específicos ordenados
+    #valores.sort() - ordenar valores embaralhados
+    #valores.sort(reverse=True) - valores ordenados no decrescente
+    #len(valores) - a quantidade de elementos
+    
+      
